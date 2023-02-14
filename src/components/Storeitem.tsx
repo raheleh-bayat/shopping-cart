@@ -13,7 +13,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
         getItemQuantity,
         increaseCartQuantity,
         decreaseCartQuantity,
-        removeFormCart } = useShoppingCart()
+        removeFromCart } = useShoppingCart()
     const quantity = getItemQuantity(id)
 
     return (
@@ -47,7 +47,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
                             </div>
                             <Button onClick={() => increaseCartQuantity(id)}>+</Button>
                         </div>
-                        <Button onClick={() => removeFormCart(id)} variant="danger" size="sm">Remove</Button>
+                        <Button onClick={() => removeFromCart(id)} variant="danger" size="sm">Remove</Button>
                     </div>
                     }
 

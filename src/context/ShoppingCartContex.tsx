@@ -19,7 +19,7 @@ type ShoppingCartContex = {
     cartItems:CartItem[]
 }
 
-const ShoppingCartContext = createContext({} as ShoppingCartContext );
+const ShoppingCartContext = createContext({} as ShoppingCartContext);
 export const useShoppingCart = () => {
     return useContext(ShoppingCartContext)
 }
@@ -28,7 +28,7 @@ export const ShoppingCartProvider = ({ children }: ShoppingCartProviderPropse) =
     const [cartItems, setCartItems] = useState<CartItem[]>([])
 
     const cartQuantity = cartItems.reduce( 
-    (quantity, item) => item.quantity + quantity,0
+    (quantity,item) => item.quantity + quantity,0
     )
 
     const openCart = () => setIsOpen(true)
@@ -73,7 +73,7 @@ export const ShoppingCartProvider = ({ children }: ShoppingCartProviderPropse) =
             }
         })
     }
-    const removeFormCart = (id:number) => {
+    const removeFromCart = (id:number) => {
         setCartItems(currItem => {
             return(
                 currItem.filter(item => item.id !== id)
@@ -85,7 +85,7 @@ export const ShoppingCartProvider = ({ children }: ShoppingCartProviderPropse) =
         getItemQuantity,
         increaseCartQuantity,
         decreaseCartQuantity,
-        removeFormCart,
+        removeFromCart,
         openCart,
         closeCart,
         cartItems,
