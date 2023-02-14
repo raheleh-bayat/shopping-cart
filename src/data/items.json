@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Cup",
+        "price": 10.99,
+        "imgUrl":"/imgs/house-blend.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Cup",
+        "price": 10.99,
+        "imgUrl":"/imgs/columbian-roast.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Cup",
+        "price": 10.99,
+        "imgUrl":"/imgs/columbian-roast.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Coffe",
+        "price": 10.99,
+        "imgUrl":"/imgs/background.jpeg"
+    }
+
+]
