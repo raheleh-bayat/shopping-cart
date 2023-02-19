@@ -38,12 +38,6 @@ Contributions are welcome! To contribute to the project, please follow these ste
 
 5. Submit a pull request.
 
-# License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-# Contact
-Please contact email@example.com with any questions or issues.
-
 # Acknowledgements
 
 . This project was built using Create React App.
@@ -60,15 +54,7 @@ Please contact email@example.com with any questions or issues.
 
 . CSS documentation
 
-# FAQ
 
-## Q: How do I run tests?
-
-To run tests, use the following command:
-
-``
-npm test
-``
 Q: How do I build the project for production?
 
  To build the project for production, use the following command:
