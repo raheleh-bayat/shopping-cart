@@ -10,7 +10,7 @@ npm (v6.0.0 or higher)
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/username/shopping-cart.git
+1. Clone the repository: git clone https://github.com/raheleh-bayat/shopping-cart/tree/feature
 
 2. Install dependencies: npm install
 
